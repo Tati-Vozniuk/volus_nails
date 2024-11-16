@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katalog</title>
+  <link rel="stylesheet" href="css/catalog.css">
+
+      <!--Fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Jura:wght@300..700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <a href="index.html#main-page"><img src="img/logo.jpg" class="logo"></a>
+            <span>
+                <a href="index.html#about-us-main-page">o nas</a>
+            </span>
+            <span>
+                <a href="index.html#team-main-page">zespół</a>
+            </span>
+            <span>
+                <a href="index.html#price-main-page">cennik</a>
+            </span>
+            <span>
+                <a href="index.html#location-main-page">lokalizacja</a>
+            </span>
+            <span>
+                <a href="catalog.html#katalog-main-page" target="_blank">katalog</a>
+            </span>
+            <span>
+                <a href="favorite_products.html" class="header_heart" target="_blank">♡</a>
+            </span>
+        </div>
+    </header>
+
+
+    <div>
+        <p class="catalog_tittle_k">katalog</p>
+        <p class="catalog_tittle_d">Wybierz produkty, które Ci się podobają i <br> kup je podczas wizyty w naszym salonie.</p>
+    </div>
+
+
+    <div class="catalog_to_favourite">
+       
+         <div class="filter-dropdown">
+            <button id="dropdownBtn" onclick="toggleDropdown()" >wybierz kategorię</button>
+            <div id="dropdownMenu" class="dropdown-menu">
+                <button onclick="filterProducts('all')">wszystko</button>
+                <button onclick="filterProducts('candle')">świece</button>
+                <button onclick="filterProducts('hands')">pielęgnacja rąk</button>
+                <button onclick="filterProducts('foots')">pielęgnacja stóp</button>
+            </div>
+            
+            <a href="favorite_products.html" target="_blank" >do ulubionych ♡</a>
+        </div>
+
+
+    </div>
+
+   
+    <!--Фільтрація-->
+
+    <div class="shop-products"></div>
+    
+
+
+
+    <!-- / Фільтрація-->
+
+    <div class="shop-products">
+            <!-- Продукти відображатимуться тут динамічно -->
+    </div>   
+
+    <footer class="footer">
+        <div class="footer_header">
+            <h1 class="footer_header_volus">VOLUS</h1>
+            <p class="footer_header_salon">TWÓJ PROFESJONALNY SALON MANICURE</p>
+        </div>
+  
+        <div class="footer_info"> 
+            <div class="footer_contact">
+                <h3 class="footer_info_header">Skontaktuj się z nami!</h3>
+                <ul>
+                    <li><p>+48 661 866 231</p></li>
+                    <li><p>Volus.poczta@gmail.com</p></li>
+                    <li><p>Startowa, 5, 80-461, Gdańsk</p></li>
+                    <li><a href="https://www.instagram.com/volus_nails/" target="_blank"><img src="img/main_page/Instagram.png" ></a><a href="https://www.facebook.com/volusnails.gdansk/" target="_blank"><img src="img/main_page/Facebook.png"></a></li>
+                </ul>
+            </div>
+  
+            <div class="footer_hours">
+                <h3 class="footer_info_header">Godziny otwarcia</h3>
+                <ul>
+                    <li><p>Pon: 10:00 - 19:00</p></li>
+                    <li><p>Wt - Pt: 09:00 - 19:00</p></li>
+                    <li><p>Sob: 08:00 - 14:00</p></li>
+                    <li><p>Niedz: Zamknięte</p></li>
+                </ul>
+            </div>
+  
+            <div class="footer_short_info">
+                <h3 class="footer_info_header">informacja</h3>
+                <ul>
+                    <li><p><a href="#about-us-main-page">O nas</a> </p></li>
+                    <li><p> <a href="#team-main-page">Zespół</a></p></li>
+                    <li><p> <a href="#price-main-page">cennik</a></p></li>
+                    <li><p><a href="catalog.html">katalog</a> </p></li>
+                </ul>
+            </div>
+  
+            <div class="footer_reservation">
+                <h3 class="footer_reservation_header">Zarezerwuj miejsce na <br> zabieg już  teraz</h3>
+                <a href="https://booksy.com/pl-pl/74213_volus-nails_salon-kosmetyczny_20383_gdansk?do=invite&_branch_match_id=1258384167223165923&utm_medium=merchant_customer_invite&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FVdy8NMzUwDzUN802yrytKTUstKsrMS49PKsovL04tsnXOKMrPTQUA83I4KDwAAAA%3D" class="footer_reservation_link" target="_blank">rezerwacja</a>
+            </div>
+        </div>
+      </footer>
+  
+
+    <script src="js/catalog.js"></script>
+
+</body>
+
+</html>

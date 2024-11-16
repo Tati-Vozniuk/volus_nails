@@ -1,0 +1,2069 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+/* Fonts */
+.belanosima-regular {
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jura-regular {
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jura-bold {
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.jura-semibold {
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* Header */
+
+header {
+    background-color: #ffffff;
+    padding: 15px 0;
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+    font-size: 33px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000
+}
+
+.header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-around; 
+    gap: 30px; 
+    flex-wrap: wrap; 
+    overflow-x: auto; 
+}
+
+.logo {
+    width: 15vw; 
+    height: auto; 
+    max-height: 10vh; 
+    object-fit: contain;
+    margin-right: 20px; 
+}
+
+header a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.header_heart{
+    font-size: 40px;
+}
+
+
+/* Main */
+
+.main_photo{
+    width: 100%;
+    height: 690px;
+}
+
+.nail_text{
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 130px;
+    color: #6F3B31;
+    text-transform: uppercase;
+    margin-left: 45px; 
+    margin-top: 0;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+/* About us */
+
+.about_us_container { 
+    display: flex;
+    align-items: center; 
+}
+
+
+.about_us_photo{
+    height: 45vw;
+    width: auto;
+    margin-left: 5px; 
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.about_us_text{
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    margin-left: 20px; 
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+#about-us-main-page {
+    padding-top: 80px;
+    margin-top: -80px; 
+}
+
+/* Volus team */
+
+
+.volus_team_header_background {
+
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    background: linear-gradient(to top, #E9E2E0 50%, #ffffff 50%);
+}
+
+.volus_team_header_text {
+    font-family: "Belanosima", sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    color: black;
+    margin: 30px;
+    text-transform: uppercase;
+    margin-left: 20px; 
+}
+
+
+.team_member {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    background: #E9E2E0;
+}
+
+.member {
+    text-align: center;
+}
+
+.member_photo {
+    height: 365px;
+    width: auto;
+}
+
+.member_name {
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+#team-main-page {
+    padding-top: 80px;
+    margin-top: -80px; 
+}
+
+/* Price */
+
+
+.price_container{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    /*
+    align-items: center;
+    justify-content: center;
+    */
+    width: 100%;
+    height: 620px;
+    background-image: url('/img/main_page/price_background.png');
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+
+.pricing_title_mar_tet {
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #E9E2E0;
+    text-align: left; 
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+
+.pricing_title_liu_ver{
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #6F3B31;
+    margin-top: 210px;
+    margin-bottom: 55px;
+    text-align: left;
+}
+
+
+.pricing-link {
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #E9E2E0;
+    background-color: #89625B;
+    text-decoration: none;
+    border: 4px solid #E9E2E0;
+    border-radius: 48px; 
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 250px;
+    padding: 15px;
+}
+
+.pricing-link:hover {
+    background-color: #E9E2E0;
+    color: #6F3B31;
+}
+
+.pricing-link2 {
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #6F3B31;
+    background-color: #CBB8B4;
+    text-decoration: none;
+    border: 4px solid #6F3B31;
+    border-radius: 48px; 
+    transition: background-color 0.3s, color 0.3s;
+    padding: 15px;
+}
+
+.pricing-link2:hover {
+    background-color: #6F3B31;
+    color: #E9E2E0;
+}
+
+#price-main-page {
+    
+    scroll-margin-top: 120px;
+    margin-bottom: 0px;
+}
+
+/* To catalog */
+
+.to_catalog_container{
+    margin-top: 80px;
+    margin-bottom: 0px;
+    display: flex;
+    width: 100%;
+    height: 680px;
+    background-image: url('/img/main_page/to_catalog.jpg');
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    position: relative;
+    margin-bottom: 30px;
+
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.to_catalog_text_up{
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    color: #E9E2E0;
+    padding-left: 30px;
+    padding-top: 5px;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+}
+
+.to_catalog_text_down{
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 35px;
+    color: #E9E2E0;
+    padding-left: 30px;
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.to_catalog_link {
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #E9E2E0;
+    background-color: #414042;
+    text-decoration: none;
+    border: 4px solid #E9E2E0;
+    border-radius: 48px; 
+    transition: background-color 0.3s, color 0.3s;
+    padding: 25px;
+    position: relative;
+    margin-left: 50px;
+}
+
+.to_catalog_link:hover {
+    background-color: #E9E2E0;
+    color: #6F3B31;
+}
+
+.to_catalog_link::before {
+    content: "\00a0"; 
+    margin-right: 50px; 
+}
+
+.to_catalog_link::after {
+    content: "\00a0"; 
+    margin-left: 50px; 
+}
+
+/* Location */
+
+#map {
+    height: 80%;
+    width: 100%; 
+    border-top : 6px solid #6F3B31;
+    border-bottom : 6px solid #6F3B31;
+}
+
+#location-main-page{
+    height: 700px; 
+    width: 100%;
+    scroll-margin-top: 120px;
+}
+.location_tittle{
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+    color: #6F3B31;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+/* Footer */
+
+footer{
+    background-color: #6F3B31;
+    max-height: 650px;
+    overflow: hidden;
+}
+
+.footer_header {
+    padding: 20px;
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: stretch;
+    padding-bottom: 0;
+}
+
+
+.footer_header_volus {
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+    color: #E9E2E0;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.footer_header_salon {
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase; 
+    font-size: 25px; 
+    color: #e9e2e0; 
+    margin-left: 20px; 
+    letter-spacing: 2px;
+    align-self: flex-end;
+    margin-bottom: 17px;
+}
+
+.footer_info{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.footer_info_header{
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #E9E2E0;
+    margin-top: 0px;
+}
+
+.footer_contact ul, .footer_hours ul, .footer_short_info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_contact p, .footer_hours p, .footer_short_info p{
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #E9E2E0;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 5px;
+    margin-top: 0;
+}
+
+.footer_contact a, .footer_short_info a{
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #E9E2E0;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.footer_contact img{
+    width: 51px;
+    height: 51px;
+}
+
+.footer_contact, .footer_hours, .footer_short_info, .footer_reservation {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 250px; 
+    flex-grow: 1;
+}
+
+.footer_reservation_header{
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #E9E2E0;
+    margin-top: 0px;
+    text-align: right;
+    padding-left: 20px;
+}
+
+.footer_reservation_link {
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #E9E2E0;
+    background-color: #89625B;
+    text-decoration: none;
+    border: 4px solid #E9E2E0;
+    border-radius: 48px; 
+    transition: background-color 0.3s, color 0.3s;
+    padding: 10px;
+    text-align: center;
+    text-align: right;
+    align-self: flex-end;
+    
+}
+
+.footer_reservation_link:hover {
+    background-color: #E9E2E0;
+    color: #6F3B31;
+}
+
+.footer_reservation_link::before {
+    content: "\00a0"; 
+    margin-right: 29px; 
+}
+
+.footer_reservation_link::after {
+    content: "\00a0"; 
+    margin-left: 29px; 
+}
+
+
+/* Media Queries */
+
+
+@media (max-width: 1480px){
+
+    .pricing_title_mar_tet {
+        font-size: 95px; 
+        margin-left: 200px;
+        margin-right: 33px;
+    }
+    .pricing_title_liu_ver{
+        font-size: 95px;
+    }
+    .pricing-link {
+        font-size: 22px;
+        margin-left: 200px;
+    }
+    .pricing-link2 {
+        font-size: 22px;
+    }
+
+}
+
+
+@media (max-width: 1368px){
+    .about_us_text{
+        font-size: 29px;
+        margin-left: 18px; 
+    }
+    .member_photo {
+        height: 330px;
+        width: auto;
+    }
+    .team_member {
+        gap: 35px;
+    }
+    .member_name {
+        font-size: 35px;
+    }
+    .pricing_title_mar_tet {
+        font-size: 90px; 
+        margin-left: 180px;
+        margin-right: 33px;
+    }
+    .pricing_title_liu_ver{
+        font-size: 90px;
+    }
+    .pricing-link {
+        font-size: 20px;
+        margin-left: 180px;
+    }
+    .pricing-link2 {
+        font-size: 20px;
+    }
+    .to_catalog_container{
+        margin-top: 80px;
+        width: 100%;
+        height: 600px;
+        margin-bottom: 30px;
+    }
+    .to_catalog_text_up{
+        font-size: 30px;
+    }
+    .to_catalog_text_down{
+        font-size: 30px;
+    }
+    .to_catalog_link {
+        font-size: 32px;
+        padding: 25px;
+    }
+    #map {
+        height: 75%;
+    }
+    #location-main-page{
+        height: 600px; 
+        width: 100%;
+    }
+    .location_tittle{
+        font-family: "Belanosima", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 100px;
+        color: #6F3B31;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: center;
+    }    
+}
+
+@media (max-width: 1280px){
+    .pricing_title_mar_tet {
+        font-size: 85px; 
+        margin-left: 120px;
+        margin-right: 50px;
+        margin-top: 40px;
+    }
+    .pricing_title_liu_ver{
+        font-size: 85px;
+    }
+    .pricing-link {
+        font-size: 20px;
+        margin-left: 120px;
+    }
+    .pricing-link2 {
+        font-size: 20px;
+    }
+    .price_container{
+        height: 600px;
+    }
+    .to_catalog_container{
+        margin-top: 80px;
+        width: 100%;
+        height: 580px;
+        margin-bottom: 30px;
+    }
+    .to_catalog_text_up{
+        font-size: 27px;
+        padding-top: 8px;
+    }
+    .to_catalog_text_down{
+        font-size: 27px;
+    }
+    .to_catalog_link {
+        font-size: 32px;
+        padding: 25px;
+        margin-left: 40px;
+    }
+
+    .footer_header_volus {
+        font-size: 110px;
+    }
+    .footer_header_salon {
+        font-size: 20px; 
+    }
+    .footer_info_header{
+        font-size: 20px;
+    }
+    .footer_contact p, .footer_hours p, .footer_short_info p{
+        font-size: 20px;
+        margin: 5px;
+        margin-top: 0;
+    }
+    .footer_contact a, .footer_short_info a{
+        font-size: 20px;
+        text-decoration: none;
+        margin: 5px;
+    }
+    .footer_reservation_header{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .footer_reservation_link {
+        font-size: 25px;
+        border: 4px solid #E9E2E0;
+        padding: 7px;
+        
+    }
+    .footer_reservation_link::before {
+        content: "\00a0"; 
+        margin-right: 22px; 
+    }
+    
+    .footer_reservation_link::after {
+        content: "\00a0"; 
+        margin-left: 22px; 
+    }
+}
+
+@media (max-width: 1175px){
+    .to_catalog_container{
+        margin-top: 80px;
+        width: 100%;
+        height: 560px;
+        margin-bottom: 30px;
+    }
+    .to_catalog_text_up{
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .to_catalog_text_down{
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+    .to_catalog_link {
+        font-size: 30px;
+        padding: 23px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1150px) {
+    header {
+        font-size: 25px; 
+    }
+    .header {
+        gap: 20px; 
+    }
+    .logo {
+        width: 13vw; 
+    }
+    .main_photo{
+        width: 100%;
+        height: auto;
+    }
+    .nail_text{
+        font-size: 120px;
+        margin-left: 40px; 
+    }
+    .about_us_text{
+        font-size: 25px;
+        margin-left: 15px; 
+    }
+    .member_photo {
+        height: 270px;
+        width: auto;
+    }
+    .team_member {
+        gap: 30px;
+    }
+    .member_name {
+        font-size: 30px;
+    }
+    .pricing_title_mar_tet {
+        font-size: 80px; 
+        margin-left: 160px;
+        margin-right: 10px;
+    }
+    .pricing_title_liu_ver{
+        font-size: 80px;
+        margin-top: 180px;
+    }
+    .pricing-link {
+        font-size: 20px;
+        margin-left: 160px;
+    }
+    .pricing-link2 {
+        font-size: 20px;
+    }
+    .price_container{
+        height: 500px;
+    }
+    #map {
+        height: 75%;
+    }
+    #location-main-page{
+        height: 550px; 
+        width: 100%;
+        margin-top: -10px;
+    }
+    .location_tittle{
+        font-family: "Belanosima", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 85px;
+        color: #6F3B31;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: center;
+    }    
+}
+
+
+@media (max-width: 1092px){
+
+    .to_catalog_container{
+        margin-top: 30px;
+        width: 100%;
+        height: 540px;
+        margin-bottom: 30px;
+    }
+    .to_catalog_text_up{
+        font-size: 23px;
+        padding-top: 40px;
+    }
+    .to_catalog_text_down{
+        font-size: 23px;
+        padding-bottom: 40px;
+    }
+    .to_catalog_link {
+        font-size: 27px;
+        padding: 20px;
+        margin-left: 35px;
+    }
+    .pricing_title_mar_tet {
+        font-size: 73px; 
+        margin-left: 140px;
+        margin-right: 10px;
+    }
+    .pricing_title_liu_ver{
+        font-size: 73px;
+        margin-top: 180px;
+    }
+    .pricing-link {
+        font-size: 16px;
+        margin-left: 140px;
+    }
+    .pricing-link2 {
+        font-size: 16px;
+    }
+    .price_container{
+        height: 500px;
+    }
+/* */
+    .footer_header_volus {
+        font-size: 100px;
+    }
+    .footer_header_salon {
+        font-size: 20px; 
+    }
+    .footer_info_header{
+        font-size: 17px;
+    }
+    .footer_contact p, .footer_hours p, .footer_short_info p{
+        font-size: 17px;
+        margin: 5px;
+        margin-top: 0;
+    }
+    .footer_contact a, .footer_short_info a{
+        font-size: 17px;
+        text-decoration: none;
+        margin: 5px;
+    }
+    .footer_reservation_header{
+        font-size: 17px;
+        padding-left: 20px;
+    }
+    .footer_reservation_link {
+        font-size: 20px;
+        border: 4px solid #E9E2E0;
+        padding: 7px;
+        
+    }
+    .footer_reservation_link::before {
+        content: "\00a0"; 
+        margin-right: 22px; 
+    }
+    
+    .footer_reservation_link::after {
+        content: "\00a0"; 
+        margin-left: 22px; 
+    }
+    .footer_contact img{
+        width: 41px;
+        height: 41px;
+    }
+}
+
+
+@media (max-width: 1000px){
+    .about_us_text{
+        font-size: 22px;
+        margin-left: 13px; 
+    }
+    .volus_team_header_text{
+        font-size: 100px;
+    }
+    .member_photo {
+        height: 250px;
+        width: auto;
+    }
+    .team_member {
+        gap: 27px;
+    }
+    .member_name {
+        font-size: 27px;
+    }
+    .pricing_title_mar_tet {
+        font-size: 70px; 
+        margin-left: 120px;
+        margin-right: 10px;
+        margin-top: 30px;
+    }
+    .pricing_title_liu_ver{
+        font-size: 70px;
+        margin-top: 160px;
+    }
+    .pricing-link {
+        font-size: 16px;
+        margin-left: 120px;
+    }
+    .pricing-link2 {
+        font-size: 16px;
+    }
+    .price_container{
+        height: 450px;
+    }
+    .to_catalog_container{
+        margin-top: 0px;
+        width: 100%;
+        height: 520px;
+        margin-bottom: 30px;
+    }
+    .to_catalog_text_up{
+        font-size: 22px;
+        padding-top: 50px;
+    }
+    .to_catalog_text_down{
+        font-size: 22px;
+        padding-bottom: 50px;
+    }
+    .to_catalog_link {
+        font-size: 25px;
+        padding: 20px;
+        margin-left: 25px;
+    }
+    #map {
+        height: 75%;
+    }
+    #location-main-page{
+        height: 450px; 
+        width: 100%;
+        margin-top: -30px;
+    }
+    .location_tittle{
+        font-family: "Belanosima", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 75px;
+        color: #6F3B31;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: center;
+    }   
+}
+
+@media (max-width: 935px){
+    .footer_header_volus {
+        font-size: 90px;
+    }
+    .footer_header_salon {
+        font-size: 18px; 
+    }
+    .footer_info_header{
+        font-size: 15px;
+    }
+    .footer_contact p, .footer_hours p, .footer_short_info p{
+        font-size: 15px;
+        margin: 5px;
+        margin-top: 0;
+    }
+    .footer_contact a, .footer_short_info a{
+        font-size: 15px;
+        text-decoration: none;
+        margin: 5px;
+    }
+    .footer_reservation_header{
+        font-size: 15px;
+        padding-left: 20px;
+    }
+    .footer_reservation_link {
+        font-size: 17px;
+        border: 4px solid #E9E2E0;
+        padding: 6px;
+        
+    }
+    .footer_reservation_link::before {
+        content: "\00a0"; 
+        margin-right: 20px; 
+    }
+    
+    .footer_reservation_link::after {
+        content: "\00a0"; 
+        margin-left: 20px; 
+    }
+    .footer_contact img{
+        width: 41px;
+        height: 41px;
+    }
+    .footer_contact, .footer_hours, .footer_short_info, .footer_reservation{
+        padding-bottom: 0;
+    } 
+}
+
+@media (max-width: 900px) {
+    header {
+        font-size: 20px; 
+        padding: 15px 0; 
+    }
+    .header {
+        justify-content: center; 
+        gap: 15px; 
+    }
+    .logo {
+        width: 15vw; 
+    }
+    .header_heart{
+        font-size: 30px;
+    }
+    .nail_text{
+        font-size: 95px;
+        margin-left: 30px; 
+    }
+    .about_us_text{
+        font-size: 20px;
+        margin-left: 15px; 
+    }
+    .volus_team_header_text{
+        font-size: 90px;
+    }
+    .member_photo {
+        height: 220px;
+        width: auto;
+    }
+    .team_member {
+        gap: 24px;
+    }
+    .member_name {
+        font-size: 24px;
+    }
+    .pricing_title_mar_tet {
+        font-size: 65px; 
+        margin-left: 80px;
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    .pricing_title_liu_ver{
+        font-size: 65px;
+        margin-top: 160px;
+    }
+    .pricing-link {
+        font-size: 15px;
+        margin-left: 80px;
+    }
+    .pricing-link2 {
+        font-size: 15px;
+    }
+    .price_container{
+        height: 450px;
+    }
+    .to_catalog_container{
+        margin-top: 0px;
+        width: 100%;
+        height: 490px;
+        margin-bottom: 30px;
+    }
+    .to_catalog_text_up{
+        font-size: 20px;
+        padding-top: 60px;
+    }
+    .to_catalog_text_down{
+        font-size: 20px;
+        padding-bottom: 60px;
+    }
+    .to_catalog_link {
+        font-size: 23px;
+        padding: 15px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 850px){
+    .pricing_title_mar_tet {
+        font-size: 60px; 
+        margin-left: 80px;
+        margin-right: 15px;
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    .pricing_title_liu_ver{
+        font-size: 60px;
+        margin-top: 140px;
+        margin-bottom: 35px;
+    }
+    .pricing-link {
+        font-size: 13px;
+        margin-left: 80px;
+        padding: 10px;
+        border: 3px solid #E9E2E0;
+    }
+    .pricing-link2 {
+        font-size: 13px;
+        padding: 10px;
+        border: 3px solid #6F3B31;
+    }
+    .price_container{
+        height: 400px; 
+    }
+    /* */
+    .footer_header_volus {
+        font-size: 80px;
+    }
+    .footer_header_salon {
+        font-size: 18px; 
+        margin-bottom: 10px;
+    }
+    .footer_info_header{
+        font-size: 12px;
+
+    }
+    .footer_contact p, .footer_hours p, .footer_short_info p{
+        font-size: 12px;
+        margin: 3px;
+        margin-top: 0;
+    }
+    .footer_contact a, .footer_short_info a{
+        font-size: 12px;
+        text-decoration: none;
+        margin: 3px;
+    }
+    .footer_reservation_header{
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    .footer_reservation_link {
+        font-size: 14px;
+        border: 4px solid #E9E2E0;
+        padding: 6px;
+        
+    }
+    .footer_reservation_link::before {
+        content: "\00a0"; 
+        margin-right: 15px; 
+    }
+    
+    .footer_reservation_link::after {
+        content: "\00a0"; 
+        margin-left: 15px; 
+    }
+    .footer_contact img{
+        width: 41px;
+        height: 41px;
+    }
+    .footer {
+        max-height: 300px; /* Задайте потрібне значення */
+        overflow: hidden; /* Приховує зайвий простір */
+    }
+    
+    
+}
+
+
+@media (max-width: 800px){
+    .about_us_text{
+        font-size: 17px;
+        margin-left: 10px; 
+        margin-top: 10px;
+    }
+    .volus_team_header_text{
+        font-size: 85px;
+    }
+    .member_photo {
+        height: 200px;
+        width: auto;
+    }
+    .team_member {
+        gap: 20px;
+    }
+    .member_name {
+        font-size: 20px;
+    }
+    .pricing_title_mar_tet {
+        font-size: 55px; 
+        margin-left: 80px;
+        margin-right: 15px;
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
+    .pricing_title_liu_ver{
+        font-size: 55px;
+        margin-top: 140px;
+        margin-bottom: 35px;
+    }
+    .pricing-link {
+        font-size: 13px;
+        margin-left: 80px;
+        padding: 10px;
+        border: 3px solid #E9E2E0;
+    }
+    .pricing-link2 {
+        font-size: 13px;
+        padding: 10px;
+        border: 3px solid #6F3B31;
+    }
+    .price_container{
+        height: 370px; 
+    }
+    .to_catalog_container{
+        margin-top: -30px;
+        width: 100%;
+        height: 470px;
+        margin-bottom: 30px;
+    }
+    .to_catalog_text_up{
+        font-size: 20px;
+        padding-top: 65px;
+        padding-left: 15px;
+    }
+    .to_catalog_text_down{
+        font-size: 20px;
+        padding-bottom: 65px;
+        padding-right: 15px;
+    }
+    .to_catalog_link {
+        font-size: 22px;
+        padding: 10px;
+        margin-left: 30px;
+    }
+    .to_catalog_link::before {
+        content: "\00a0"; 
+        margin-right: 50px; 
+    }
+    .to_catalog_link::after {
+        margin-left: 50px; 
+    }
+    .to_catalog_link::before {
+        margin-right: 30px; 
+    }
+    .to_catalog_link::after {
+        margin-left: 30px; 
+    }
+    #map {
+        height: 75%;
+    }
+    #location-main-page{
+        height: 330px; 
+        width: 100%;
+        margin-top: -40px;
+    }
+    .location_tittle{
+        font-family: "Belanosima", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 65px;
+        color: #6F3B31;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: center;
+    }   
+}
+
+
+@media (max-width: 750px){
+    .pricing_title_mar_tet {
+        margin-left: 60px;
+    }
+    .pricing_title_liu_ver{
+        margin-top: 140px;
+    }
+    .pricing-link {
+        margin-left: 60px;
+    }
+    .price_container{
+        height: 370px; 
+    }
+    .to_catalog_container{
+        margin-top: -30px;
+        width: 100%;
+        height: 440px;
+        margin-bottom: 30px;
+    }
+    .to_catalog_text_up{
+        font-size: 18px;
+        padding-top: 70px;
+        padding-left: 15px;
+    }
+    .to_catalog_text_down{
+        font-size: 18px;
+        padding-bottom: 70px;
+        padding-right: 15px;
+    }
+    .to_catalog_link {
+        font-size: 20px;
+        padding: 10px;
+        margin-left: 25px;
+        border: 3px solid #E9E2E0;
+    }
+    .to_catalog_link::before {
+        margin-right: 30px; 
+    }
+    .to_catalog_link::after {
+        margin-left: 30px; 
+    }
+    .footer_contact img{
+        width: 31px;
+        height: 31px;
+    } 
+}
+
+@media (max-width: 700px){
+     /* */
+     .footer_header_volus {
+        font-size: 70px;
+    }
+    .footer_header_salon {
+        font-size: 15px; 
+        margin-bottom: 10px;
+    }
+    .footer_info_header{
+        font-size: 10px;
+
+    }
+    .footer_contact p, .footer_hours p, .footer_short_info p{
+        font-size: 10px;
+        margin: 3px;
+        margin-top: 0;
+    }
+    .footer_contact a, .footer_short_info a{
+        font-size: 10px;
+        text-decoration: none;
+        margin: 0px;
+        padding: 0;
+    }
+    .footer_reservation_header{
+        font-size: 10px;
+        padding-left: 20px;
+    }
+    .footer_reservation_link {
+        font-size: 10px;
+        border: 3px solid #E9E2E0;
+        padding: 3px;
+        
+    }
+    .footer_reservation_link::before {
+        content: "\00a0"; 
+        margin-right: 8px; 
+    }
+    
+    .footer_reservation_link::after {
+        content: "\00a0"; 
+        margin-left: 8px; 
+    }
+    .footer_contact img{
+        width: 31px;
+        height: 31px;
+        padding-right: 7px;
+    }
+    .footer {
+        max-height: 250px; /* Задайте потрібне значення */
+        overflow: hidden; /* Приховує зайвий простір */
+    }
+    .footer_short_info ul, .footer_contact ul, .footer_hours ul {
+        margin: 0px;
+    }
+}
+
+@media (max-width: 690px) {
+    header {
+        font-size: 15px; 
+        padding: 5px 0; 
+    }
+    .header {
+        justify-content: center; 
+        gap: 10px; 
+    }
+    .logo {
+        width: 15vw; 
+    }
+    .header_heart{
+        font-size: 19px;
+    }
+    .nail_text{
+        font-size: 75px;
+        margin-left: 20px; 
+    }
+    .about_us_text{
+        font-size: 15px;
+        margin-left: 10px; 
+    }
+    .volus_team_header_text{
+        font-size: 75px;
+    }
+    .member_photo {
+        height: 170px;
+        width: auto;
+    }
+    .team_member {
+        gap: 16px;
+    }
+    .member_name {
+        font-size: 16px;
+    }
+    .pricing_title_mar_tet {
+        font-size: 50px; 
+        margin-left: 50px;
+        margin-right: 15px;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+    .pricing_title_liu_ver{
+        font-size: 50px;
+        margin-top: 140px;
+        margin-bottom: 30px;
+    }
+    .pricing-link {
+        font-size: 12px;
+        margin-left: 50px;
+    }
+    .pricing-link2 {
+        font-size: 12px;
+    }
+    .price_container{
+        height: 370px; 
+    }
+    .to_catalog_container{
+        margin-top: 0px;
+        width: 100%;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+    .to_catalog_text_up{
+        font-size: 15px;
+        padding-top: 70px;
+        padding-left: 10px;
+    }
+    .to_catalog_text_down{
+        font-size: 15px;
+        padding-bottom: 70px;
+        padding-right: 10px;
+    }
+    .to_catalog_link {
+        font-size: 16px;
+        padding: 8px;
+        margin-left: 20px;
+        border: 3px solid #E9E2E0;
+    }
+    #map {
+        height: 75%;
+    }
+    #location-main-page{
+        height: 300px; 
+        width: 100%;
+        margin-top: -40px;
+    }
+    .location_tittle{
+        font-family: "Belanosima", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 55px;
+        color: #6F3B31;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: center;
+    } 
+}
+
+@media (max-width: 600px){
+    .pricing_title_mar_tet {
+        font-size: 40px; 
+        margin-left: 70px;
+        margin-right: 15px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .pricing_title_liu_ver{
+        font-size: 40px;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+    .pricing-link {
+        font-size: 10px;
+        margin-left: 70px;
+        padding: 8px;
+        border: 3px solid #E9E2E0;
+    }
+    .pricing-link2 {
+        font-size: 10px;
+        padding: 8px;
+        border: 3px solid #6F3B31;
+    }
+    .price_container{
+        height: 270px; 
+    }
+    .footer_container {
+        display: flex;
+        flex-direction: column;
+        gap: 0; /* Зменшує відступи між блоками */
+    }
+    
+}
+
+@media (max-width: 590px) {
+
+    .footer_header_volus {
+        font-size: 50px; 
+    }
+
+    .footer_header_salon {
+        font-size: 12px; /* Зменшено шрифт */
+        margin-bottom: 8px;
+    }
+
+    /* Менші шрифти для текстових блоків */
+    .footer_info_header {
+        font-size: 9px;
+    }
+
+    .footer_contact p, 
+    .footer_hours p, 
+    .footer_short_info p {
+        font-size: 9px; /* Зменшено шрифт */
+        margin: 5px 0;
+    }
+
+    .footer_contact a, 
+    .footer_short_info a {
+        font-size: 9px;
+        margin: 0;
+    }
+
+    .footer_reservation_header {
+        font-size: 9px;
+        padding-left: 10px;
+    }
+
+    .footer_reservation_link {
+        font-size: 9px;
+        padding: 5px;
+        border: 2px solid #E9E2E0;
+    }
+
+    .footer_reservation_link::before,
+    .footer_reservation_link::after {
+        content: "\00a0";
+        margin: 0 5px;
+    }
+
+    .footer_contact img {
+        width: 25px; 
+        height: 25px;
+    }
+
+}
+
+@media (max-width: 570px){
+    .about_us_text{
+        font-size: 13px;
+    }
+    .volus_team_header_text{
+        font-size: 60px;
+    }
+    .member_photo {
+        height: 130px;
+        width: auto;
+    }
+    .team_member {
+        gap: 13px;
+    }
+    .member_name {
+        font-size: 13px;
+    }
+    .pricing_title_mar_tet {
+        font-size: 35px; 
+        margin-left: 60px;
+        margin-right: 35px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .pricing_title_liu_ver{
+        font-size: 35px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    .pricing-link {
+        font-size: 8px;
+        margin-left: 60px;
+        padding: 8px;
+        border: 2px solid #E9E2E0;
+    }
+    .pricing-link2 {
+        font-size: 8px;
+        padding: 8px;
+        border: 2px solid #6F3B31;
+    }
+    .price_container{
+        height: 270px; 
+    }
+    .to_catalog_container{
+        margin-top: 0px;
+        width: 100%;
+        height: 370px;
+        margin-bottom: 30px;
+    }
+    .to_catalog_text_up{
+        font-size: 13px;
+        padding-top: 67px;
+        padding-left: 10px;
+    }
+    .to_catalog_text_down{
+        font-size: 13px;
+        padding-bottom: 67px;
+        padding-right: 10px;
+    }
+    .to_catalog_link {
+        font-size: 14px;
+        padding: 7px;
+        margin-left: 18px;
+        border: 3px solid #E9E2E0;
+    }
+    .to_catalog_link::before {
+        margin-right: 25px; 
+    }
+    .to_catalog_link::after {
+        margin-left: 25px; 
+    }
+    .footer_contact, .footer_hours, .footer_short_info, .footer_reservation {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        min-height: 250px;
+        flex-grow: 1;
+    }
+}
+
+@media (max-width: 520px) {
+    .footer_header_volus {
+        font-size: 40px; 
+    }
+
+    .footer_header_salon {
+        font-size: 10px; 
+        margin-bottom: 6px;
+    }
+
+    .footer_info_header {
+        font-size: 8px;
+    }
+
+    .footer_contact p, 
+    .footer_hours p, 
+    .footer_short_info p {
+        font-size: 8px; 
+        margin: 4px 0;
+    }
+
+    .footer_contact a, 
+    .footer_short_info a {
+        font-size: 8px;
+        margin: 0;
+    }
+
+    .footer_reservation_header {
+        font-size: 8px;
+        padding-left: 10px;
+    }
+
+    .footer_reservation_link {
+        font-size: 8px;
+        padding: 3px;
+        border: 2px solid #E9E2E0;
+    }
+
+    .footer_reservation_link::before,
+    .footer_reservation_link::after {
+        content: "\00a0";
+        margin: 0 5px;
+    }
+
+    .footer_contact img {
+        width: 21px; 
+        height: 21px;
+    }
+    .footer {
+        max-height: 200px; 
+        overflow: hidden; 
+    }
+}
+
+@media (max-width: 468px){
+    
+    .footer_header_volus {
+        font-size: 35px; 
+    }
+
+    .footer_header_salon {
+        font-size: 8px; 
+        margin-bottom: 6px;
+    }
+
+    .footer_info_header {
+        font-size: 7px;
+    }
+
+    .footer_contact p, 
+    .footer_hours p, 
+    .footer_short_info p {
+        font-size: 7px; 
+        margin: 4px 0;
+    }
+
+    .footer_contact a, 
+    .footer_short_info a {
+        font-size: 7px;
+        margin: 0;
+    }
+
+    .footer_reservation_header {
+        font-size: 7px;
+        padding-left: 10px;
+    }
+
+    .footer_reservation_link {
+        font-size: 7px;
+        padding: 3px;
+        border: 2px solid #E9E2E0;
+    }
+
+    .footer_reservation_link::before,
+    .footer_reservation_link::after {
+        content: "\00a0";
+        margin: 0 3px;
+    }
+
+    .footer_contact img {
+        width: 15px; 
+        height: 15px;
+    }
+    .footer {
+        max-height: 200px; 
+        overflow: hidden; 
+    }
+}
+
+@media (max-width: 492px) {
+    header {
+        font-size: 12px; 
+        padding: 5px 0; 
+    }
+    .header {
+        justify-content: center; 
+        gap: 8px; 
+    }
+    .logo {
+        width: 13vw; 
+        margin-right: 10px; 
+    }
+    .nail_text{
+        font-size: 65px;
+        margin-left: 10px; 
+    }
+    .about_us_text{
+        font-size: 11px;
+    }
+    .volus_team_header_text{
+        font-size: 50px;
+    }
+    .member_photo {
+        height: 115px;
+        width: auto;
+    }
+    .team_member {
+        gap: 13px;
+    }
+    .member_name {
+        font-size: 13px;
+    }
+    .pricing_title_mar_tet {
+        font-size: 30px; 
+        margin-left: 50px;
+        margin-right: 35px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .pricing_title_liu_ver{
+        font-size: 30px;
+        margin-top: 90px;
+        margin-bottom: 20px;
+    }
+    .pricing-link {
+        font-size: 8px;
+        margin-left: 50px;
+        padding: 8px;
+        border: 2px solid #E9E2E0;
+    }
+    .pricing-link2 {
+        font-size: 8px;
+        padding: 8px;
+        border: 2px solid #6F3B31;
+    }
+    .price_container{
+        height: 240px; 
+        margin-top: 40px;
+    }
+    .to_catalog_container{
+        margin-top: -30px;
+        width: 100%;
+        height: 350px;
+        margin-bottom: 30px;
+    }
+    .to_catalog_text_up{
+        font-size: 12px;
+        padding-top: 67px;
+        padding-left: 10px;
+    }
+    .to_catalog_text_down{
+        font-size: 12px;
+        padding-bottom: 67px;
+        padding-right: 10px;
+    }
+    .to_catalog_link {
+        font-size: 12px;
+        padding: 7px;
+        margin-left: 18px;
+        border: 3px solid #E9E2E0;
+    }
+    .to_catalog_link::before {
+        margin-right: 20px; 
+    }
+    .to_catalog_link::after {
+        margin-left: 20px; 
+    }
+    #map {
+        height: 75%;
+    }
+    #location-main-page{
+        height: 250px; 
+        width: 100%;
+        margin-top: -65px;
+    }
+    .location_tittle{
+        font-family: "Belanosima", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 45px;
+        color: #6F3B31;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: center;
+    }  
+}
+
+@media (max-width: 460px){
+    .pricing_title_mar_tet {
+        font-size: 30px; 
+        margin-left: 45px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .pricing_title_liu_ver{
+        font-size: 30px;
+        margin-top: 90px;
+        margin-bottom: 10px;
+    }
+    .pricing-link {
+        font-size: 7px;
+        margin-left: 45px;
+        padding: 6px;
+        border: 2px solid #E9E2E0;
+    }
+    .pricing-link2 {
+        font-size: 7px;
+        padding: 6px;
+        border: 2px solid #6F3B31;
+    }
+    .price_container{
+        height: 220px; 
+        margin-top: 40px;
+    }
+    .to_catalog_container{
+        margin-top: -10px;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    .to_catalog_text_up{
+        font-size: 11px;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+    .to_catalog_text_down{
+        font-size: 11px;
+        padding-bottom: 50px;
+        padding-right: 10px;
+    }
+    .to_catalog_link {
+        font-size: 12px;
+        padding: 7px;
+        margin-left: 13px;
+        border: 2px solid #E9E2E0;
+    }
+    .to_catalog_link::before {
+        margin-right: 20px; 
+    }
+    .to_catalog_link::after {
+        margin-left: 20px; 
+    }
+}
+
+
+@media (max-width: 410px){
+    .about_us_text{
+        font-size: 10px;
+    }
+    .nail_text{
+        font-size: 60px;
+        margin-left: 10px; 
+    }
+    .volus_team_header_text{
+        font-size: 40px;
+    }
+    .member_photo {
+        height: 100px;
+        width: auto;
+    }
+    .team_member {
+        gap: 10px;
+    }
+    .member_name {
+        font-size: 10px;
+    }
+    .pricing_title_mar_tet {
+        font-size: 30px; 
+        margin-left: 40px;
+        margin-right: 5px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    .pricing_title_liu_ver{
+        font-size: 30px;
+        margin-top: 90px;
+        margin-bottom: 10px;
+    }
+    .pricing-link {
+        font-size: 7px;
+        margin-left: 40px;
+        padding: 6px;
+        border: 2px solid #E9E2E0;
+    }
+    .pricing-link2 {
+        font-size: 7px;
+        padding: 6px;
+        border: 2px solid #6F3B31;
+    }
+    .price_container{
+        height: 220px; 
+        margin-top: 40px;
+    }
+    .to_catalog_container{
+        margin-top: -30px;
+        width: 100%;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    .to_catalog_text_up{
+        font-size: 10px;
+        padding-top: 65px;
+        padding-left: 10px;
+    }
+    .to_catalog_text_down{
+        font-size: 10px;
+        padding-bottom: 63px;
+        padding-right: 10px;
+    }
+    .to_catalog_link {
+        font-size: 12px;
+        padding: 7px;
+        margin-left: 13px;
+        border: 2px solid #E9E2E0;
+    }
+    .to_catalog_link::before {
+        margin-right: 20px; 
+    }
+    .to_catalog_link::after {
+        margin-left: 20px; 
+    }
+    #map {
+        height: 75%;
+    }
+    #location-main-page{
+        height: 200px; 
+        width: 100%;
+        margin-top: -65px;
+    }
+    .location_tittle{
+        font-family: "Belanosima", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 35px;
+        color: #6F3B31;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: center;
+    }  
+}
+
+
+@media (max-width: 400px){
+    
+    .footer_header_volus {
+        font-size: 32px; 
+    }
+
+    .footer_header_salon {
+        font-size: 7px; 
+        margin-bottom: 6px;
+    }
+
+    .footer_info_header {
+        font-size: 6px;
+    }
+
+    .footer_contact p, 
+    .footer_hours p, 
+    .footer_short_info p {
+        font-size: 6px; 
+        margin: 4px ;
+    }
+
+    .footer_contact a, 
+    .footer_short_info a {
+        font-size: 6px;
+        margin: 0;
+    }
+
+    .footer_reservation_header {
+        font-size: 6px;
+        padding-left: 10px;
+    }
+
+    .footer_reservation_link {
+        font-size: 6px;
+        padding: 3px;
+        border: 2px solid #E9E2E0;
+    }
+
+    .footer_reservation_link::before,
+    .footer_reservation_link::after {
+        content: "\00a0";
+        margin: 0 3px;
+    }
+
+    .footer_contact img {
+        width: 15px; 
+        height: 15px;
+    }
+    .footer {
+        max-height: 200px; 
+        overflow: hidden; 
+    }
+    .footer_info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}

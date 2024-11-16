@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volus nails</title>
+
+    <link rel="icon" href="img/favicon.png">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Jura:wght@300..700&display=swap" rel="stylesheet">
+
+    <script  defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJAszhQJCRbrjoaXiVLZ8XYHxSQrTEYuM&callback=initMap&libraries=maps,marker&v=beta"></script>
+
+
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <a href="index.html#main-page"><img src="img/logo.jpg" class="logo"></a>
+            <span>
+                <a href="index.html#about-us-main-page">o nas</a>
+            </span>
+            <span>
+                <a href="index.html#team-main-page">zespół</a>
+            </span>
+            <span>
+                <a href="index.html#price-main-page">cennik</a>
+            </span>
+            <span>
+                <a href="index.html#location-main-page">lokalizacja</a>
+            </span>
+            <span>
+                <a href="catalog.html#katalog-main-page" target="_blank">katalog</a>
+            </span>
+            <span>
+                <a href="favorite_products.html" class="header_heart" target="_blank">♡</a>
+            </span>
+        </div>
+    </header>
+    
+    <div id="main-page">
+         <img src="img/main_page/main.png" class="main_photo">
+         <h1 class="nail_text">nails</h1>
+    </div>
+   
+    <div id="about-us-main-page" class="about_us_container">
+        <img src="img/main_page/about_us.png" class="about_us_photo">
+        <p class="about_us_text">
+            Witamy w Volus, gdzie nasz profesjonalny zespół pomoże Ci wyglądać niesamowicie. Dzięki ponad 1000 zadowolonym klientom, którzy już docenili nasze usługi, jesteśmy pewni wysokiej jakości naszej pracy. W naszym salonie używamy wyłącznie wysokiej jakości materiałów, które gwarantują bezpieczeństwo i trwałość efektów. <br> <br> Staramy się stworzyć przytulną atmosferę, w której będą mogli Państwo cieszyć się procesem pielęgnacji i oderwać się od codziennych trosk.
+        </p>
+    </div>
+
+    <div id="team-main-page">
+        <div class="volus_team_header_background">
+            <p class="volus_team_header_text">zespół Volus</p>
+        </div>
+
+        <div class="team_member">
+            <div class="member">
+                <img src="img/main_page/team_photo/Liuda.jpg" alt="Liudmila Vozniuk" class="member_photo">
+                <p class="member_name">Liudmila <br> Vozniuk</p>
+            </div>
+            <div class="member">
+                <img src="img/main_page/team_photo/Veronika.jpg" alt="Veronika Hankelman" class="member_photo">
+                <p class="member_name">Veronika <br> Hankelman</p>
+            </div>
+            <div class="member">
+                <img src="img/main_page/team_photo/Maria.jpg" alt="Maria" class="member_photo">
+                <p class="member_name">Maria</p>
+            </div>
+            <div class="member">
+                <img src="img/main_page/team_photo/Tetiana.png" alt="Tetiana" class="member_photo">
+                <p class="member_name">Tetiana </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="price_container" id="price-main-page">
+        <div class="price_content">
+            <p class="pricing_title_mar_tet">Tetiana & <br> Maria</p> 
+            <a href="mar&tet_price.html" class="pricing-link" target="_blank">DOWIEDZ SIĘ WIĘCEJ</a>
+        </div>
+        
+        <div class="liu_ver_container">
+            <p class="pricing_title_liu_ver">Liudmila & <br> Veronika</p>
+            <a href="liu&ver_price.html" class="pricing-link2" target="_blank">DOWIEDZ SIĘ WIĘCEJ</a>
+        </div>
+        
+            
+       
+
+    </div>
+
+
+    <div class="to_catalog_container">
+
+        <div id="katalog-main-page">
+            <div class="to_catalog_text_up">
+                <p>Nasze ręce wymagają codziennej pielęgnacji, a <br> każda chwila poświęcona ich trosce, to <br>inwestycja w nasze samopoczucie.</p>
+            </div>
+            <div class="to_catalog_text_down">
+                <p>Wybierz produkty, dostępne do <br>
+                    nabycia podczas wizyty w naszym salonie, <br>
+                     aby dać swoim dłoniom chwilę ukojenia i relaksu.</p>
+            </div>
+            <div>
+                <a href="catalog.html" class="to_catalog_link" target="_blank">katalog</a>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <div id="location-main-page">
+        <div>
+            <p class="location_tittle">lokalizacja</p>
+        </div>
+        <div id="map">
+            <gmp-map center="54.39385986328125,18.5983943939209" zoom="14" map-id="DEMO_MAP_ID">
+            <gmp-advanced-marker position="54.39385986328125,18.5983943939209" title="My location"></gmp-advanced-marker></gmp-map>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer_header">
+            <h1 class="footer_header_volus">VOLUS</h1>
+            <p class="footer_header_salon">TWÓJ PROFESJONALNY SALON MANICURE</p>
+        </div>
+
+        <div class="footer_info"> 
+            <div class="footer_contact">
+                <h3 class="footer_info_header">Skontaktuj się z nami!</h3>
+                <ul>
+                    <li><p>+48 661 866 231</p></li>
+                    <li><p>Volus.poczta@gmail.com</p></li>
+                    <li><p>Startowa, 5, 80-461, Gdańsk</p></li>
+                    <li><a href="https://www.instagram.com/volus_nails/" target="_blank"><img src="img/main_page/Instagram.png" ></a><a href="https://www.facebook.com/volusnails.gdansk/" target="_blank"><img src="img/main_page/Facebook.png"></a></li>
+                </ul>
+            </div>
+    
+            <div class="footer_hours">
+                <h3 class="footer_info_header">Godziny otwarcia</h3>
+                <ul>
+                    <li><p>Pon: 10:00 - 19:00</p></li>
+                    <li><p>Wt - Pt: 09:00 - 19:00</p></li>
+                    <li><p>Sob: 08:00 - 14:00</p></li>
+                    <li><p>Niedz: Zamknięte</p></li>
+                </ul>
+            </div>
+
+            <div class="footer_short_info">
+                <h3 class="footer_info_header">informacja</h3>
+                <ul>
+                    <li><p><a href="#about-us-main-page">O nas</a> </p></li>
+                    <li><p> <a href="#team-main-page">Zespół</a></p></li>
+                    <li><p> <a href="#price-main-page">cennik</a></p></li>
+                    <li><p><a href="catalog.html">katalog</a> </p></li>
+                </ul>
+            </div>
+
+            <div class="footer_reservation">
+                <h3 class="footer_reservation_header">Zarezerwuj miejsce na <br> zabieg już  teraz</h3>
+                <a href="https://booksy.com/pl-pl/74213_volus-nails_salon-kosmetyczny_20383_gdansk?do=invite&_branch_match_id=1258384167223165923&utm_medium=merchant_customer_invite&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT07J0UvKz88urtRLzs%2FVdy8NMzUwDzUN802yrytKTUstKsrMS49PKsovL04tsnXOKMrPTQUA83I4KDwAAAA%3D" class="footer_reservation_link" target="_blank">rezerwacja</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        const mapStyle = [
+            {
+                "elementType": "geometry",
+                "stylers": [{"color": "#e9e2e0"}]
+            },
+            {
+                "elementType": "geometry.stroke",
+                "stylers": [{"color": "#6f3b31"}, {"weight": 1.5}]
+            },
+            {
+                "elementType": "labels.icon",
+                "stylers": [{"color": "#6f3b31"}]
+            },
+            {
+                "elementType": "labels.text",
+                "stylers": [{"color": "#6f3b31"}, {"weight": 0.5}]
+            }
+        ];
+
+        function initMap() {
+            const mapCenter = { lat: 54.3938396328125, lng: 18.59839439 };
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 17,
+                center: mapCenter,
+                styles: mapStyle
+            });
+
+            new google.maps.Marker({
+                position: mapCenter,
+                map: map,
+                title: "My location"
+            }); 
+        }
+    </script>
+
+</body>
+</html>
