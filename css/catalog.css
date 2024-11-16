@@ -1417,6 +1417,21 @@ footer{
         border-bottom: 3px solid #6F3B31;
         margin-bottom: 0px;
     }
+
+    .product {
+        padding: 10px;
+        position: relative;
+        transition: box-shadow 0.3s;
+        border: 2px solid #6F3B31;
+        border-radius: 20px;
+    }
+
+    #dropdownBtn {
+        border: 2px solid #6F3B31;
+    }
+    .catalog_to_favourite a {
+        border: 2px solid #6F3B31;
+    }
 }
 
 @media (max-width: 550px){  
