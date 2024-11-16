@@ -1073,6 +1073,8 @@ footer{
 @media (max-width: 1349px){
     .shop-products {
         gap: 45px;
+        padding-bottom: 40px;
+        margin-top: 10px;
     }
 }
 
@@ -1095,6 +1097,7 @@ footer{
         height: auto;
         border-radius: 5px;
     }
+
 }
 
 
@@ -1156,7 +1159,8 @@ footer{
 @media (max-width: 1000px){
     .shop-products {
         gap: 30px;
-        margin-top: 40px;
+        padding-bottom: 10px;
+        margin-top: 10px;
     }
     .catalog_tittle_k {
         font-size: 150px;
