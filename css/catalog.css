@@ -17,6 +17,12 @@ body {
     box-sizing: border-box; 
 }
 
+.content {
+    min-height: calc(100vh - 280px); /* 100px — це висота футера + хедера */
+    flex: 1;
+}
+
+
 footer {
     background-color: #6F3B31;
     max-height: 650px;
@@ -24,6 +30,8 @@ footer {
     padding: 20px;
     color: white;
 }
+
+
 /* Fonts */
 .belanosima-regular {
     font-family: "Belanosima", sans-serif;
